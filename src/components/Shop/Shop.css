@@ -1,0 +1,31 @@
+.shopContainer{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+}
+
+
+.shop{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.selectItem{
+    margin: 0px 5px;
+    border-radius: 20px;
+    background-color: lightsalmon;
+    color: #fff;
+}
+
+.select-btn{
+    border-radius: 10px;
+    margin: 5px;
+    width: 80%;
+    border: none;
+    padding: 10px;
+    background: greenyellow;
+    color: lightcoral ;
+    font-size: 15px;
+    font-weight: bold;
+}

@@ -8,6 +8,7 @@ const Ring = (props) => {
             <img src={picture} alt="" />
             <h2>{name}</h2>
             <p>price: {price}</p>
+            <button className='cart-btn'>ADD TO CART</button>
         </div>
     );
 };

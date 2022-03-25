@@ -1,7 +1,23 @@
 .ring{
-    
+    margin: 10px;
+    border-radius: 20px;
+    background-color: lightcoral;
+    color: #fff;
 }
 .ring img{
+padding: 5px;
+border-radius: 100px;
 width: 300px;
 height: 200px;
+}
+
+.cart-btn{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    background: lightgreen;
+    color: #fff ;
+    font-size: 15px;
+    font-weight: bold;
+    
 }

@@ -1,0 +1,56 @@
+[
+  {
+    "_id": "623e1e8f78419b19dd0d4cf2",
+    "price": "$101.67",
+    "picture": "https://cdn.pixabay.com/photo/2021/11/04/18/01/ring-6768987_960_720.jpg",
+    "name": "Glamour Ring"
+  },
+  {
+    "_id": "623e1e8ff90e56d6063b1f02",
+    "price": "$181.91",
+    "picture": "https://cdn.pixabay.com/photo/2019/06/17/13/39/ring-4279997_960_720.jpg",
+    "name": "Sterling Ring"
+  },
+  {
+    "_id": "623e1e8f0891ceb84a9c1d61",
+    "price": "$139.98",
+    "picture": "https://cdn.pixabay.com/photo/2019/06/17/13/38/ring-4279990_960_720.jpg",
+    "name": "Marvel Ring"
+  },
+  {
+    "_id": "623e1e8fe7f978b95f480af5",
+    "price": "$330.65",
+    "picture": "https://cdn.pixabay.com/photo/2017/07/12/18/43/wedding-2497820_960_720.jpg",
+    "name": "Harp Ring"
+  },
+  {
+    "_id": "623e1e8f79ce982d33ac7a12",
+    "price": "$141.60",
+    "picture": "https://cdn.pixabay.com/photo/2014/09/11/16/06/ring-441783_960_720.jpg",
+    "name": "Luxuriant Ring"
+  },
+  {
+    "_id": "623e1e8f91ed327bcba5f589",
+    "price": "$178.68",
+    "picture": "https://cdn.pixabay.com/photo/2019/06/17/13/38/ring-4279992_960_720.jpg",
+    "name": "Silk Ring"
+  },
+  {
+    "_id": "623e1e8f91ed327bcba5f5c9",
+    "price": "$178.68",
+    "picture": "https://cdn.pixabay.com/photo/2019/06/17/13/38/ring-4279989_960_720.jpg",
+    "name": "Divine Ring"
+  },
+  {
+    "_id": "623e1e8f91ed327bcba5f599",
+    "price": "$150.68",
+    "picture": "https://cdn.pixabay.com/photo/2017/05/31/20/29/ring-2361513_960_720.jpg",
+    "name": "Harmonious Ring"
+  },
+  {
+    "_id": "623e1e8f91ed327bcba5f549",
+    "price": "$199.68",
+    "picture": "https://cdn.pixabay.com/photo/2015/08/07/23/58/ring-879932_960_720.jpg",
+    "name": "Errorless Ring"
+  }
+]

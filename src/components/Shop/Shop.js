@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Ring from '../Ring/Ring';
 
 const Shop = () => {
     const [rings, setRings] = useState([]);
@@ -10,7 +11,7 @@ const Shop = () => {
     return (
         <div>
             <p>Total Rings: {rings.length}</p>
-            {rings.map(ring =>{console.log(ring)})}
+            {rings.map(ring =><Ring key={ring.id} ring ={ring} ></Ring>)}
         </div>
     );
 };

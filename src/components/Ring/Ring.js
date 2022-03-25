@@ -1,9 +1,13 @@
 import React from 'react';
+import './Ring.css'
 
-const Ring = () => {
+const Ring = (props) => {
+    const {name, price, picture, } = props.ring
     return (
-        <div>
-            
+        <div className='ring'>
+            <img src={picture} alt="" />
+            <h2>{name}</h2>
+            <p>price: {price}</p>
         </div>
     );
 };

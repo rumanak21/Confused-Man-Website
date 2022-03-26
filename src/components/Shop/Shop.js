@@ -21,6 +21,14 @@ const Shop = () => {
 
     const chooseItem =()=>{
         
+        
+        console.log()
+
+    }
+
+    const removeItem =()=>{
+       const choose = document.getElementById('allAddedItem').innerHTML="";
+       console.log(choose)
 
     }
 
@@ -47,8 +55,8 @@ const Shop = () => {
                         
                 </div>
 
-                <button onClick={chooseItem()} className='select-btn'>CHOOSE ONE</button>
-                <button className='select-btn'>CHOOSE AGAIN</button>
+                <button onClick={chooseItem} className='select-btn'>CHOOSE ONE</button>
+                <button onClick={removeItem} className='select-btn'>CHOOSE AGAIN</button>
 
 
             </div>

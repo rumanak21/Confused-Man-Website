@@ -17,6 +17,10 @@ const Shop = () => {
         setCart(newCart)
 
     }
+
+    const chooseItem =()=>{
+        console.log('Clicked')
+    }
     return (
         <div className="shopContainer">
             <div className='shop'>
@@ -33,11 +37,14 @@ const Shop = () => {
                 <div className='addedItem'>
                     
                     {cart.map((item) => (
-                        <h2 className='selectItem-h2'><img src={item[0].ring.picture} alt="" /> {item[0].ring.name}</h2>
+                        <h2 className='selectItem-h2' key={item[0].ring.id}><img src={item[0].ring.picture} alt="" /> {item[0].ring.name}</h2>
+                        
                     ))}
+
+                        
                 </div>
 
-                <button className='select-btn'>CHOOSE ONE</button>
+                <button onClick={chooseItem} className='select-btn'>CHOOSE ONE</button>
                 <button className='select-btn'>CHOOSE AGAIN</button>
 
 

@@ -20,15 +20,17 @@ const Shop = () => {
     }
 
     const chooseItem =()=>{
+        let choose =document.getElementsByClassName('selectItem-h2');
         
+        let randomItem = choose[Math.floor(Math.random() * choose.length)];
         
-        console.log()
+        document.getElementById('allAddedItem').innerHTML=`${randomItem}`;
 
     }
 
     const removeItem =()=>{
-       const choose = document.getElementById('allAddedItem').innerHTML="";
-       console.log(choose)
+       document.getElementById('allAddedItem').innerHTML="";
+       
 
     }
 

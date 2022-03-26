@@ -1,5 +1,5 @@
 .shopContainer{
-    margin: 50px;
+    margin: 20px;
     display: grid;
     grid-template-columns: 3fr 1fr;
 
@@ -16,6 +16,27 @@
     border-radius: 20px;
     background-color: lightsalmon;
     color: #fff;
+}
+
+.selectItem img{
+ border-radius: 50%;
+ width: 50px;
+ height: 50px;
+ margin-right: 5px;
+
+}
+
+.selectItem-h2{
+display: flex;
+align-items: center;
+justify-content: flex-start
+
+}
+
+.addedItem { 
+    text-align: left;
+    padding-left: 10px;
+    
 }
 
 .select-btn{

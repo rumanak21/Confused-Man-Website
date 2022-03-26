@@ -11,6 +11,13 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
+@media screen and (max-width:844px){
+
+    .shop{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+}
 .selectItem{
     margin: 0px 5px;
     border-radius: 20px;

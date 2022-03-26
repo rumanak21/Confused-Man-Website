@@ -1,5 +1,6 @@
 # Website name: Confused Man
-Website URl [Coming soon]
+Website URl [Click Here](https://legendary-shortbread-44a066.netlify.app/).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

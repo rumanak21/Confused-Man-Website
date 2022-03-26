@@ -5,6 +5,7 @@ import './Shop.css'
 const Shop = () => {
     const [rings, setRings] = useState([]);
     const [cart, setCart] = useState([])
+    
 
     useEffect(() => {
         fetch('products.json')
@@ -19,8 +20,10 @@ const Shop = () => {
     }
 
     const chooseItem =()=>{
-        console.log('Clicked')
+        
+
     }
+
     return (
         <div className="shopContainer">
             <div className='shop'>
@@ -34,7 +37,7 @@ const Shop = () => {
             </div>
             <div className='selectItem'>
             <h3>Select Rings: {cart.length}</h3>
-                <div className='addedItem'>
+                <div id='allAddedItem' className='addedItem'>
                     
                     {cart.map((item) => (
                         <h2 className='selectItem-h2' key={item[0].ring.id}><img src={item[0].ring.picture} alt="" /> {item[0].ring.name}</h2>
@@ -44,7 +47,7 @@ const Shop = () => {
                         
                 </div>
 
-                <button onClick={chooseItem} className='select-btn'>CHOOSE ONE</button>
+                <button onClick={chooseItem()} className='select-btn'>CHOOSE ONE</button>
                 <button className='select-btn'>CHOOSE AGAIN</button>
 
 
